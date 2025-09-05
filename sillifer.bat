@@ -13,10 +13,14 @@ FOR /L %%A IN (1,1,20) DO echo echo mreow mrrp >> meow.bat
 echo timeout 1 >> meow.bat
 echo timeout 5 >> silly.bat
 
-echo GO MY KITTENS!!!!
+echo GO MY KITTEN CANNON!!!!
+timeout 2 >NUL
 start "CAT CANNON" cmd /c silly.bat
 
-timeout 7 >NUL
+timeout 1 >NUL
+cls
+
+timeout 4 >NUL
 del .\meow.bat 
 del .\silly.bat 
 cd ..\
